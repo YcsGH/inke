@@ -1,0 +1,6 @@
+framework module IOSBaseKit {
+  umbrella header "IOSBaseKit.h"
+
+  export *
+  module * { export * }
+}
