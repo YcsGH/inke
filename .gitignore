@@ -2,8 +2,11 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
-# Framework
+## Framework
 IJKMediaFramework.framework
+
+## lib
+inke/Vendors/librtmp-iOS/lib/
 
 ## Build generated
 build/
