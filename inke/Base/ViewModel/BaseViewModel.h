@@ -10,10 +10,17 @@
 #import "BaseException.h"
 #import <Masonry/Masonry.h>
 
-///存放各种业务逻辑和网络请求
+/// 存放各种业务逻辑和网络请求
 @interface BaseViewModel : NSObject
 
-// MARK: 错误处理
+/// 默认错误处理
 -(void)throwException:(BaseException *)exception;
+
+/// 初始化与之关联的控制器
+-(void)initInterfaceOfController:(UIViewController *)viewController;
+
+/// 绑定子视图到控制器上,实现子视图的约束布局
+-(void)bindView:(UIView *)view atController:(UIViewController *)controller;
+
 
 @end

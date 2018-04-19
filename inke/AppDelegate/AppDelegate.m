@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainTabBarController.h"
+#import "SignInViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,10 +22,9 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    self.window.rootViewController = [MainTabBarController new];
+    self.window.rootViewController = [SignInViewController new];
     return YES;
 }
-
 
 -(void)initAppEnviroment {
     [LogManager setupLogManageSystem];

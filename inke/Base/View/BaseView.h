@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Masonry/Masonry.h>
 
 ///用来呈现用户界面 & View自带的简单逻辑
 @interface BaseView : UIView

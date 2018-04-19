@@ -230,6 +230,16 @@
 		7BB6CD1220871F800072B5AD /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD1120871F800072B5AD /* LogManager.m */; };
 		7BB6CD15208723510072B5AD /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD14208723510072B5AD /* MainTabBarController.m */; };
 		7BB6CD18208724810072B5AD /* PermissionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD17208724810072B5AD /* PermissionService.m */; };
+		7BB6CD1C208893390072B5AD /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD1B208893390072B5AD /* SignInViewController.m */; };
+		7BB6CD1F208893A60072B5AD /* SignViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD1E208893A60072B5AD /* SignViewModel.m */; };
+		7BB6CD22208894E70072B5AD /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD21208894E70072B5AD /* LoginView.m */; };
+		7BB6CD2520889A940072B5AD /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD2420889A940072B5AD /* User.m */; };
+		7BB6CD2820889B890072B5AD /* UserDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD2720889B890072B5AD /* UserDao.m */; };
+		7BB6CD2C20889CAC0072B5AD /* WHC_ModelSqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD2B20889CAC0072B5AD /* WHC_ModelSqlite.m */; };
+		7BB6CD3620889CC10072B5AD /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD3020889CC10072B5AD /* UITableView+FDTemplateLayoutCell.m */; };
+		7BB6CD3720889CC10072B5AD /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD3220889CC10072B5AD /* UITableView+FDKeyedHeightCache.m */; };
+		7BB6CD3820889CC10072B5AD /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD3320889CC10072B5AD /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		7BB6CD3920889CC10072B5AD /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD3420889CC10072B5AD /* UITableView+FDIndexPathHeightCache.m */; };
 		EF6CDF182086EC4200D32FBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6CDF172086EC4200D32FBB /* main.m */; };
 		EF6CDF232086EC4200D32FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6CDF222086EC4200D32FBB /* Assets.xcassets */; };
 		EF6CDF262086EC4200D32FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6CDF242086EC4200D32FBB /* LaunchScreen.storyboard */; };
@@ -752,6 +762,27 @@
 		7BB6CD14208723510072B5AD /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		7BB6CD16208724810072B5AD /* PermissionService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermissionService.h; sourceTree = "<group>"; };
 		7BB6CD17208724810072B5AD /* PermissionService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PermissionService.m; sourceTree = "<group>"; };
+		7BB6CD192088451E0072B5AD /* ErrorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErrorMacro.h; sourceTree = "<group>"; };
+		7BB6CD1A208893390072B5AD /* SignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		7BB6CD1B208893390072B5AD /* SignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		7BB6CD1D208893A60072B5AD /* SignViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignViewModel.h; sourceTree = "<group>"; };
+		7BB6CD1E208893A60072B5AD /* SignViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignViewModel.m; sourceTree = "<group>"; };
+		7BB6CD20208894E70072B5AD /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		7BB6CD21208894E70072B5AD /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		7BB6CD2320889A940072B5AD /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		7BB6CD2420889A940072B5AD /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		7BB6CD2620889B890072B5AD /* UserDao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDao.h; sourceTree = "<group>"; };
+		7BB6CD2720889B890072B5AD /* UserDao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDao.m; sourceTree = "<group>"; };
+		7BB6CD2A20889CAC0072B5AD /* WHC_ModelSqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_ModelSqlite.h; sourceTree = "<group>"; };
+		7BB6CD2B20889CAC0072B5AD /* WHC_ModelSqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_ModelSqlite.m; sourceTree = "<group>"; };
+		7BB6CD2E20889CC10072B5AD /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		7BB6CD2F20889CC10072B5AD /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		7BB6CD3020889CC10072B5AD /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		7BB6CD3120889CC10072B5AD /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		7BB6CD3220889CC10072B5AD /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		7BB6CD3320889CC10072B5AD /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		7BB6CD3420889CC10072B5AD /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		7BB6CD3520889CC10072B5AD /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
 		9AA6C38E47D9E710A6C52066 /* Pods-inke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inke/Pods-inke.debug.xcconfig"; sourceTree = "<group>"; };
 		EF6CDF132086EC4200D32FBB /* inke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6CDF172086EC4200D32FBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1476,6 +1507,30 @@
 			path = XJScrollerHiddenBar;
 			sourceTree = "<group>";
 		};
+		7BB6CD2920889CAC0072B5AD /* WHC_ModelSqliteKit */ = {
+			isa = PBXGroup;
+			children = (
+				7BB6CD2A20889CAC0072B5AD /* WHC_ModelSqlite.h */,
+				7BB6CD2B20889CAC0072B5AD /* WHC_ModelSqlite.m */,
+			);
+			path = WHC_ModelSqliteKit;
+			sourceTree = "<group>";
+		};
+		7BB6CD2D20889CC10072B5AD /* FDTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				7BB6CD2E20889CC10072B5AD /* UITableView+FDKeyedHeightCache.h */,
+				7BB6CD2F20889CC10072B5AD /* UITableView+FDTemplateLayoutCellDebug.h */,
+				7BB6CD3020889CC10072B5AD /* UITableView+FDTemplateLayoutCell.m */,
+				7BB6CD3120889CC10072B5AD /* UITableView+FDIndexPathHeightCache.h */,
+				7BB6CD3220889CC10072B5AD /* UITableView+FDKeyedHeightCache.m */,
+				7BB6CD3320889CC10072B5AD /* UITableView+FDTemplateLayoutCellDebug.m */,
+				7BB6CD3420889CC10072B5AD /* UITableView+FDIndexPathHeightCache.m */,
+				7BB6CD3520889CC10072B5AD /* UITableView+FDTemplateLayoutCell.h */,
+			);
+			path = FDTemplateLayoutCell;
+			sourceTree = "<group>";
+		};
 		8C4CCD0193B73D5CD60673B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1577,6 +1632,8 @@
 		EF6CDF2F2086ED6F00D32FBB /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				7BB6CD2D20889CC10072B5AD /* FDTemplateLayoutCell */,
+				7BB6CD2920889CAC0072B5AD /* WHC_ModelSqliteKit */,
 				7BB6CCD5208717B70072B5AD /* XJScrollerHiddenBar */,
 				7BB6CCD1208717B00072B5AD /* ODRefreshControl */,
 				7BB6CC73208717AA0072B5AD /* librtmp-iOS */,
@@ -1595,6 +1652,7 @@
 				EF6CDF542086EF0100D32FBB /* Category */,
 				EF6CDF522086EE6F00D32FBB /* AppMacro.h */,
 				EF6CDF512086EE6600D32FBB /* NotificationMacros.h */,
+				7BB6CD192088451E0072B5AD /* ErrorMacro.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -1818,6 +1876,10 @@
 		EF6CDF652086F0F300D32FBB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7BB6CD2320889A940072B5AD /* User.h */,
+				7BB6CD2420889A940072B5AD /* User.m */,
+				7BB6CD2620889B890072B5AD /* UserDao.h */,
+				7BB6CD2720889B890072B5AD /* UserDao.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1825,6 +1887,8 @@
 		EF6CDF662086F0F300D32FBB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7BB6CD20208894E70072B5AD /* LoginView.h */,
+				7BB6CD21208894E70072B5AD /* LoginView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1832,6 +1896,8 @@
 		EF6CDF672086F0F300D32FBB /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				7BB6CD1A208893390072B5AD /* SignInViewController.h */,
+				7BB6CD1B208893390072B5AD /* SignInViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1839,6 +1905,8 @@
 		EF6CDF682086F0F300D32FBB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				7BB6CD1D208893A60072B5AD /* SignViewModel.h */,
+				7BB6CD1E208893A60072B5AD /* SignViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -2014,6 +2082,7 @@
 				7BB6CC0A2087179D0072B5AD /* GPUImageMedianFilter.m in Sources */,
 				7BB6CC0B2087179D0072B5AD /* GPUImageLocalBinaryPatternFilter.m in Sources */,
 				7BB6CBEA2087179D0072B5AD /* GPUImageGaussianSelectiveBlurFilter.m in Sources */,
+				7BB6CD1C208893390072B5AD /* SignInViewController.m in Sources */,
 				7BB6CBE42087179D0072B5AD /* GPUImageView.m in Sources */,
 				7BB6C9F32087175B0072B5AD /* AsyncUdpSocket.m in Sources */,
 				7BB6CC062087179D0072B5AD /* GPUImageMotionDetector.m in Sources */,
@@ -2029,6 +2098,7 @@
 				7BB6CBF42087179D0072B5AD /* GPUImageContrastFilter.m in Sources */,
 				7BB6CBEF2087179D0072B5AD /* GPUImageSubtractBlendFilter.m in Sources */,
 				EF6CDF4D2086EE1C00D32FBB /* BaseViewController.m in Sources */,
+				7BB6CD2520889A940072B5AD /* User.m in Sources */,
 				7BB6CBB92087179D0072B5AD /* GPUImageMultiplyBlendFilter.m in Sources */,
 				7BB6CC70208717A60072B5AD /* LFLiveKit-dummy.m in Sources */,
 				7BB6CBC32087179D0072B5AD /* GPUImageOpacityFilter.m in Sources */,
@@ -2056,6 +2126,7 @@
 				7BB6CC1C2087179D0072B5AD /* GPUImageCrosshatchFilter.m in Sources */,
 				7BB6CC62208717A60072B5AD /* LFLiveAudioConfiguration.m in Sources */,
 				7BB6CC1F2087179D0072B5AD /* GPUImageSingleComponentGaussianBlurFilter.m in Sources */,
+				7BB6CD2820889B890072B5AD /* UserDao.m in Sources */,
 				7BB6C9F52087175B0072B5AD /* GCDAsyncUdpSocket.m in Sources */,
 				7BB6CBFE2087179D0072B5AD /* GPUImageThresholdSketchFilter.m in Sources */,
 				7BB6CBF92087179D0072B5AD /* GPUImageVoronoiConsumerFilter.m in Sources */,
@@ -2085,6 +2156,7 @@
 				7BB6CC31208717A20072B5AD /* DMHeartFlyView.m in Sources */,
 				7BB6CB8B2087179D0072B5AD /* GPUImageTwoPassTextureSamplingFilter.m in Sources */,
 				7BB6CBCE2087179D0072B5AD /* GPUImageDifferenceBlendFilter.m in Sources */,
+				7BB6CD3720889CC10072B5AD /* UITableView+FDKeyedHeightCache.m in Sources */,
 				7BB6CB942087179D0072B5AD /* GPUImageSoftEleganceFilter.m in Sources */,
 				7BB6CBC82087179D0072B5AD /* GPUImageSphereRefractionFilter.m in Sources */,
 				7BB6CB9E2087179D0072B5AD /* GPUImageGrayscaleFilter.m in Sources */,
@@ -2113,6 +2185,7 @@
 				7BB6CC6A208717A60072B5AD /* LFLiveSession.m in Sources */,
 				7BB6CBF82087179D0072B5AD /* GPUImageSmoothToonFilter.m in Sources */,
 				7BB6CBC12087179D0072B5AD /* GPUImageDissolveBlendFilter.m in Sources */,
+				7BB6CD3820889CC10072B5AD /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				7BB6CBE22087179D0072B5AD /* GPUImagePicture.m in Sources */,
 				7BB6CC032087179D0072B5AD /* GPUImageLowPassFilter.m in Sources */,
 				7BB6CBDF2087179D0072B5AD /* GPUImageTiltShiftFilter.m in Sources */,
@@ -2127,6 +2200,7 @@
 				7BB6CC252087179D0072B5AD /* GPUImageFalseColorFilter.m in Sources */,
 				7BB6CB8C2087179D0072B5AD /* GPUImageUnsharpMaskFilter.m in Sources */,
 				7BB6CBDC2087179D0072B5AD /* GPUImageSourceOverBlendFilter.m in Sources */,
+				7BB6CD22208894E70072B5AD /* LoginView.m in Sources */,
 				EF6CDF482086EE1C00D32FBB /* BaseException.m in Sources */,
 				7BB6CBCD2087179D0072B5AD /* GPUImageBrightnessFilter.m in Sources */,
 				7BB6CBCF2087179D0072B5AD /* GPUImageStretchDistortionFilter.m in Sources */,
@@ -2152,6 +2226,7 @@
 				7BB6CC6E208717A60072B5AD /* LFHardwareVideoEncoder.m in Sources */,
 				7BB6CC64208717A60072B5AD /* LFAudioCapture.m in Sources */,
 				7BB6CBE32087179D0072B5AD /* GPUImagePicture+TextureSubimage.m in Sources */,
+				7BB6CD2C20889CAC0072B5AD /* WHC_ModelSqlite.m in Sources */,
 				7BB6CBB52087179D0072B5AD /* GPUImageSolidColorGenerator.m in Sources */,
 				7BB6CC102087179D0072B5AD /* GPUImageMotionBlurFilter.m in Sources */,
 				EF6CDF492086EE1C00D32FBB /* BaseModel.m in Sources */,
@@ -2161,7 +2236,9 @@
 				7BB6CBE72087179D0072B5AD /* GPUImageGaussianBlurFilter.m in Sources */,
 				7BB6CBF12087179D0072B5AD /* GPUImageColorBlendFilter.m in Sources */,
 				7BB6CC132087179D0072B5AD /* GPUImagePerlinNoiseFilter.m in Sources */,
+				7BB6CD3620889CC10072B5AD /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				7BB6CBC92087179D0072B5AD /* GPUImageRGBClosingFilter.m in Sources */,
+				7BB6CD1F208893A60072B5AD /* SignViewModel.m in Sources */,
 				7BB6CBA42087179D0072B5AD /* GPUImageMissEtikateFilter.m in Sources */,
 				7BB6CC6D208717A60072B5AD /* LFHardwareAudioEncoder.m in Sources */,
 				7BB6CB9C2087179D0072B5AD /* GPUImageEmbossFilter.m in Sources */,
@@ -2178,6 +2255,7 @@
 				7BB6CC232087179D0072B5AD /* GPUImageLuminanceRangeFilter.m in Sources */,
 				7BB6CD0C20871C5C0072B5AD /* HappyUtil.m in Sources */,
 				7BB6CBAD2087179D0072B5AD /* GPUImageKuwaharaRadius3Filter.m in Sources */,
+				7BB6CD3920889CC10072B5AD /* UITableView+FDIndexPathHeightCache.m in Sources */,
 				7BB6CBAF2087179D0072B5AD /* GPUImageThresholdedNonMaximumSuppressionFilter.m in Sources */,
 				7BB6CBDA2087179D0072B5AD /* GPUImageLaplacianFilter.m in Sources */,
 				7BB6CBD22087179D0072B5AD /* GPUImageDirectionalSobelEdgeDetectionFilter.m in Sources */,

@@ -14,9 +14,6 @@
 
 -(void)requestPermission:(NSString *)mediaType;
 
-
-//便捷方法
-
 //请求相机权限
 -(void)requestVideoPermission;
 //请求麦克风权限

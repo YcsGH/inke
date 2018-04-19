@@ -10,8 +10,5 @@
 
 @implementation BaseView
 
--(void)addedToView:(UIView *)superView {
-    // 子类实现
-}
 
 @end

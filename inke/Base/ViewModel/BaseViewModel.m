@@ -12,7 +12,15 @@
 
 // MARK: 错误处理
 -(void)throwException:(BaseException *)exception {
-    NSLog(@"error:%@",exception.message);
+    DDLogError(@"error:%@",exception.message);
+}
+
+-(void)initInterfaceOfController:(UIViewController *)viewController {
+    // child class implement
+}
+
+-(void)bindView:(UIView *)view atController:(UIViewController *)controller {
+    // child class implement
 }
 
 @end

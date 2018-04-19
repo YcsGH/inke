@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <CocoaLumberjack/CocoaLumberjack.h>
 
+#define ddLogLevel DDLogLevelDebug
+
 ///日志管理系统
 @interface LogManager : NSObject
 
