@@ -15,7 +15,8 @@
 
 // MARK: ===== 构造方法 =====
 
-+(instancetype)initWithUsername:(NSString *)username withPassword:(NSString *)passwd;
++(instancetype)initWithUsername:(NSString *)username
+                   withPassword:(NSString *)passwd;
 
 
 @end

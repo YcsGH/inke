@@ -7,7 +7,7 @@
 //
 
 #import "LoginView.h"
-
+#import "SignViewModel.h"
 
 @implementation LoginView
 
@@ -22,18 +22,18 @@
 }
 
 -(void)addLoginButton {
-    UIButton *loginBtn = [UIViewFactory buildButtonWithTitle:@"开始玩耍" titleColor:[UIColor blackColor] fontSize:16 backgrondColor:[UIColor whiteColor] cornerRadius:2];
-    [self addSubview:loginBtn];
+    UIButton *loginBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [loginBtn setBackgroundImage:[UIImage imageNamed:@"login"] forState:UIControlStateNormal];
     [loginBtn addTarget:self action:@selector(onLoginButtinClick) forControlEvents:UIControlEventTouchUpInside];
+    [self addSubview:loginBtn];
     [loginBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.center.mas_equalTo(0);
-        make.width.mas_equalTo(100);
-        make.height.mas_equalTo(50);
+        make.edges.mas_equalTo(0);
     }];
 }
 
 -(void)onLoginButtinClick {
     DDLogDebug(@"button click");
+    [self.signViewModel handleLoginButtonClick:@{}];
 }
 
 

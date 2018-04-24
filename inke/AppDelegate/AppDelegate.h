@@ -17,6 +17,15 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+// 外部接口，让ViewModel能够知道。
+-(void)handleSucceedSignIn:(NSNotification *)notify;
 
 @end
+
+
+
+
+
+
+
 

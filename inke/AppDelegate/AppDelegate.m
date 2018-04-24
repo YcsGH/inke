@@ -9,9 +9,10 @@
 #import "AppDelegate.h"
 #import "MainTabBarController.h"
 #import "SignInViewController.h"
+#import "AppViewModel.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic,strong) AppViewModel *appViewModel;
 @end
 
 @implementation AppDelegate
@@ -27,12 +28,25 @@
 }
 
 -(void)initAppEnviroment {
-    [LogManager setupLogManageSystem];
+    [self.appViewModel initAppEnviroment];
+    [self.appViewModel addNotificationsTo:self];
 }
 
+-(void)handleSucceedSignIn:(NSNotification *)notify {
+    [self.appViewModel willCheckRootController:[MainTabBarController new] withAppDelegate:self];
+}
 
+// MARK: ===== Lazy =====
+-(AppViewModel *)appViewModel {
+    if (!_appViewModel) {
+        _appViewModel = [[AppViewModel alloc]init];
+    }
+    return _appViewModel;
+}
 
-
+-(void)dealloc {
+    [self.appViewModel removeNotificationsOn:self];
+}
 
 
 

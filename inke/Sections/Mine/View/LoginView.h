@@ -8,16 +8,17 @@
 
 #import "BaseView.h"
 
+@class SignViewModel;
+
 /// 登陆界面
 @interface LoginView : BaseView
 
-
-
-
-
-
-
-
-
+// View和ViewModel之间的直接交互
+@property (nonatomic,weak) SignViewModel *signViewModel;
 
 @end
+
+
+
+
+

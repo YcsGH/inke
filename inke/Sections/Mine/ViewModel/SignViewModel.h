@@ -13,5 +13,7 @@
 /// 处理登陆，注册等逻辑
 @interface SignViewModel : BaseViewModel
 
+/// 登陆事件处理
+-(void)handleLoginButtonClick:(NSDictionary *)parameters;
 
 @end

@@ -20,6 +20,27 @@
 #define WAITINGVIEWCOLOR RGBCOLOR(240,240,240,1.0)
 #define NORMALBGCOLOR RGBCOLOR(238,238,238,1.0)
 
+
+//映客所有接口
+#define AllUrl @"http://serviceinfo.inke.com/serviceinfo/info?uid=139587564"
+
+//热门
+#define INKeUrl @"http://service.inke.com/api/live/simpleall?uid=139587564"
+
+//附近
+#define NearByUrl @"http:/service.ingkee.com/api/live/near_recommend?uid=247164228&latitude=%f&longitude=%f"
+
+#define NearFakeUrl @"http:/service.ingkee.com/api/live/near_recommend?uid=247164228&latitude=31.347102&longitude=121.5117"
+
+//搜索页面
+#define SEARCHURL @"http://service.inke.com/api/recommend/aggregate?&uid=139587564"
+
+//搜索更多(小清新、好声音、搞笑达人)
+#define SEARCHMOREURL @"http://service.inke.com/api/live/themesearch?uid=139587564&keyword=%@"
+
+//搜索结果
+#define SEARCHRESULTURL @"http://service.inke.com/api/user/search?uid=139587564&count=25&keyword=%@"
+
 #endif /* AppMacro_h */
 
 

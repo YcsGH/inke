@@ -1650,7 +1650,7 @@ static sqlite3 * _whc_database;
 }
 
 + (void)log:(NSString *)msg {
-    HappyLog(@"WHC_ModelSqlite:[%@]",msg);
+    DDLogDebug(@"WHC_ModelSqlite:[%@]",msg);
 }
 
 @end

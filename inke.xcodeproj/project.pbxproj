@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F68C01F200EE44813BD6AC5 /* libPods-inke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51905351B65C0C5F3EBC214B /* libPods-inke.a */; };
+		7B9906E0208ED8220062EE15 /* AppViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9906DF208ED8220062EE15 /* AppViewModel.m */; };
 		7BB6C9F32087175B0072B5AD /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6C9E92087175B0072B5AD /* AsyncUdpSocket.m */; };
 		7BB6C9F42087175B0072B5AD /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6C9EB2087175B0072B5AD /* AsyncSocket.m */; };
 		7BB6C9F52087175B0072B5AD /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6C9EE2087175B0072B5AD /* GCDAsyncUdpSocket.m */; };
@@ -225,7 +226,6 @@
 		7BB6CD06208719F80072B5AD /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB6CCC9208717AA0072B5AD /* libcrypto.a */; };
 		7BB6CD07208719F80072B5AD /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB6CCCA208717AA0072B5AD /* librtmp.a */; };
 		7BB6CD08208719F80072B5AD /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB6CCCB208717AA0072B5AD /* libssl.a */; };
-		7BB6CD0C20871C5C0072B5AD /* HappyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD0B20871C5C0072B5AD /* HappyUtil.m */; };
 		7BB6CD0F20871D4F0072B5AD /* NetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD0E20871D4F0072B5AD /* NetworkEngine.m */; };
 		7BB6CD1220871F800072B5AD /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD1120871F800072B5AD /* LogManager.m */; };
 		7BB6CD15208723510072B5AD /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD14208723510072B5AD /* MainTabBarController.m */; };
@@ -240,6 +240,7 @@
 		7BB6CD3720889CC10072B5AD /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD3220889CC10072B5AD /* UITableView+FDKeyedHeightCache.m */; };
 		7BB6CD3820889CC10072B5AD /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD3320889CC10072B5AD /* UITableView+FDTemplateLayoutCellDebug.m */; };
 		7BB6CD3920889CC10072B5AD /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CD3420889CC10072B5AD /* UITableView+FDIndexPathHeightCache.m */; };
+		7BE056D22089EC56006124BA /* login_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7BE056D12089EC56006124BA /* login_video.mp4 */; };
 		EF6CDF182086EC4200D32FBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6CDF172086EC4200D32FBB /* main.m */; };
 		EF6CDF232086EC4200D32FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6CDF222086EC4200D32FBB /* Assets.xcassets */; };
 		EF6CDF262086EC4200D32FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6CDF242086EC4200D32FBB /* LaunchScreen.storyboard */; };
@@ -257,6 +258,8 @@
 /* Begin PBXFileReference section */
 		3A2EBE4A5757631282436EDC /* Pods-inke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inke.release.xcconfig"; path = "Pods/Target Support Files/Pods-inke/Pods-inke.release.xcconfig"; sourceTree = "<group>"; };
 		51905351B65C0C5F3EBC214B /* libPods-inke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9906DE208ED8220062EE15 /* AppViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppViewModel.h; sourceTree = "<group>"; };
+		7B9906DF208ED8220062EE15 /* AppViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppViewModel.m; sourceTree = "<group>"; };
 		7BB6C9E92087175B0072B5AD /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
 		7BB6C9EA2087175B0072B5AD /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		7BB6C9EB2087175B0072B5AD /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
@@ -752,8 +755,6 @@
 		7BB6CD022087190F0072B5AD /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		7BB6CD04208719190072B5AD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		7BB6CD0920871B5A0072B5AD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		7BB6CD0A20871C5C0072B5AD /* HappyUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappyUtil.h; sourceTree = "<group>"; };
-		7BB6CD0B20871C5C0072B5AD /* HappyUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyUtil.m; sourceTree = "<group>"; };
 		7BB6CD0D20871D4F0072B5AD /* NetworkEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkEngine.h; sourceTree = "<group>"; };
 		7BB6CD0E20871D4F0072B5AD /* NetworkEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkEngine.m; sourceTree = "<group>"; };
 		7BB6CD1020871F800072B5AD /* LogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
@@ -783,6 +784,7 @@
 		7BB6CD3320889CC10072B5AD /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
 		7BB6CD3420889CC10072B5AD /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
 		7BB6CD3520889CC10072B5AD /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		7BE056D12089EC56006124BA /* login_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = login_video.mp4; sourceTree = "<group>"; };
 		9AA6C38E47D9E710A6C52066 /* Pods-inke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inke/Pods-inke.debug.xcconfig"; sourceTree = "<group>"; };
 		EF6CDF132086EC4200D32FBB /* inke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6CDF172086EC4200D32FBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1531,6 +1533,14 @@
 			path = FDTemplateLayoutCell;
 			sourceTree = "<group>";
 		};
+		7BD3FFDF2089EB3A0091B059 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7BE056D12089EC56006124BA /* login_video.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		8C4CCD0193B73D5CD60673B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1588,9 +1598,10 @@
 				EF6CDF322086ED8700D32FBB /* AppDelegate */,
 				EF6CDF312086ED7D00D32FBB /* Base */,
 				EF6CDF302086ED7800D32FBB /* Common */,
+				7BD3FFDF2089EB3A0091B059 /* Resources */,
+				EF6CDF162086EC4200D32FBB /* Supporting Files */,
 				EF6CDF2E2086ED6F00D32FBB /* Utils */,
 				EF6CDF2F2086ED6F00D32FBB /* Vendors */,
-				EF6CDF162086EC4200D32FBB /* Supporting Files */,
 			);
 			path = inke;
 			sourceTree = "<group>";
@@ -1621,8 +1632,6 @@
 		EF6CDF2E2086ED6F00D32FBB /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				7BB6CD0A20871C5C0072B5AD /* HappyUtil.h */,
-				7BB6CD0B20871C5C0072B5AD /* HappyUtil.m */,
 				7BB6CD0D20871D4F0072B5AD /* NetworkEngine.h */,
 				7BB6CD0E20871D4F0072B5AD /* NetworkEngine.m */,
 			);
@@ -1673,6 +1682,8 @@
 			children = (
 				EF6CDF332086ED8700D32FBB /* AppDelegate.h */,
 				EF6CDF342086ED8700D32FBB /* AppDelegate.m */,
+				7B9906DE208ED8220062EE15 /* AppViewModel.h */,
+				7B9906DF208ED8220062EE15 /* AppViewModel.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -1981,6 +1992,7 @@
 				7BB6CCCC208717AA0072B5AD /* LICENSE in Resources */,
 				7BB6CCCD208717AA0072B5AD /* README.md in Resources */,
 				7BB6C9F72087175B0072B5AD /* README.markdown in Resources */,
+				7BE056D22089EC56006124BA /* login_video.mp4 in Resources */,
 				7BB6CB872087179D0072B5AD /* lookup.png in Resources */,
 				7BB6CB892087179D0072B5AD /* lookup_miss_etikate.png in Resources */,
 			);
@@ -2170,6 +2182,7 @@
 				7BB6CBF62087179D0072B5AD /* GPUImageHalftoneFilter.m in Sources */,
 				7BB6CB952087179D0072B5AD /* GPUImageTwoPassFilter.m in Sources */,
 				7BB6CC1B2087179D0072B5AD /* GPUImageNobleCornerDetectionFilter.m in Sources */,
+				7B9906E0208ED8220062EE15 /* AppViewModel.m in Sources */,
 				7BB6CBDD2087179D0072B5AD /* GPUImageRGBFilter.m in Sources */,
 				EF6CDF4E2086EE1C00D32FBB /* BaseViewModel.m in Sources */,
 				7BB6CCD4208717B00072B5AD /* ODRefreshControl.m in Sources */,
@@ -2253,7 +2266,6 @@
 				EF6CDF4A2086EE1C00D32FBB /* BaseCollectionViewCell.m in Sources */,
 				7BB6CBEB2087179D0072B5AD /* GPUImageLuminosity.m in Sources */,
 				7BB6CC232087179D0072B5AD /* GPUImageLuminanceRangeFilter.m in Sources */,
-				7BB6CD0C20871C5C0072B5AD /* HappyUtil.m in Sources */,
 				7BB6CBAD2087179D0072B5AD /* GPUImageKuwaharaRadius3Filter.m in Sources */,
 				7BB6CD3920889CC10072B5AD /* UITableView+FDIndexPathHeightCache.m in Sources */,
 				7BB6CBAF2087179D0072B5AD /* GPUImageThresholdedNonMaximumSuppressionFilter.m in Sources */,
